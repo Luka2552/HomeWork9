@@ -190,8 +190,14 @@ body {
 
 .position {
   font-size: 18px;
-
   font: normal normal normal 20px/44px Tisa OT;
   color: rgba(38, 38, 38, 1);
   letter-spacing: 0.84px;
+}
+
+.email {
+  font: normal normal normal 18px/33px Tisa OT;
+  letter-spacing: 0px;
+  color: #434343;
+  opacity: 1;
 }
