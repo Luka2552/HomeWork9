@@ -1,0 +1,197 @@
+body {
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.employees {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.h2-1 {
+  text-align: left;
+  font: normal normal bold 25px/30px Brandon Grotesque;
+  letter-spacing: 5px;
+  color: #000000;
+  opacity: 1;
+  width: 135px;
+  height: 36px;
+  margin-left: 180px;
+}
+
+.employees-text {
+  margin: 20px 0;
+  width: 651px;
+  height: 85px;
+  margin-left: 180px;
+  text-align: left;
+  font: normal normal normal 18px/33px Tisa OT;
+  letter-spacing: 0px;
+  color: #434343;
+  opacity: 1;
+}
+
+.blue-rectangles {
+  display: flex;
+  margin-top: 63px;
+}
+
+.blue-rectangle {
+  width: 315px;
+  height: 147px;
+  background: #0865de 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 6px #00000029;
+  border-radius: 3px;
+  opacity: 1;
+  margin-left: 180px;
+  margin-right: 60px;
+}
+
+.first-line {
+  padding-left: 20px;
+  margin-top: 20px;
+  font: normal normal bold 14px/33px Brandon Grotesque;
+  letter-spacing: 1.4px;
+  color: rgba(255, 255, 255, 1);
+  opacity: 1;
+}
+
+.second-line {
+  padding-left: 20px;
+  font: normal normal bold 12px/12px Brandon Grotesque;
+  letter-spacing: 1.2px;
+  color: rgba(0, 45, 105, 1);
+  opacity: 1;
+}
+
+.third-line-text {
+  margin-left: 10px;
+  color: #fff;
+  font: normal normal bold 12px/33px Brandon Grotesque;
+  letter-spacing: 1.2px;
+  color: rgba(255, 255, 255, 1);
+  opacity: 1;
+}
+
+.third-line {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.circle {
+  width: 22px;
+  height: 22px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.h2-2 {
+  text-align: left;
+  font: normal normal bold 25px/30px Brandon Grotesque;
+  letter-spacing: 5px;
+  color: rgba(17, 17, 17, 1);
+  opacity: 1;
+  margin-left: 1000px;
+  margin-top: 160px;
+  width: 200px;
+  height: 36px;
+}
+
+.team-text {
+  text-align: left;
+  font: normal normal normal 25px/44px Tisa OT;
+  letter-spacing: 0px;
+  color: rgba(38, 38, 38, 1);
+  width: 550px;
+  height: 25px;
+  margin-left: 1000px;
+}
+
+.impact {
+  width: 83px;
+  height: 25px;
+  text-align: left;
+  font: normal normal normal 21px/44px Tisa OT;
+  letter-spacing: 0.84px;
+  color: rgba(38, 38, 38, 1);
+}
+
+.team-contact {
+  width: 370px;
+  height: 18px;
+  text-align: left;
+  font: normal normal normal 18px/33px Tisa OT;
+  letter-spacing: 0px;
+  color: rgba(38, 38, 38, 1);
+  margin-left: 1000px;
+  padding-top: 200px;
+}
+
+.employee-pictures {
+  width: 1660px;
+  height: 923px;
+  background: #ffffff;
+  border-radius: 6px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 121.5px;
+  margin-top: 200px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-top: 70px;
+}
+
+.employee-pfp {
+  width: 199px;
+  height: 278px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 60.5px;
+}
+
+.employee-pfp img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text {
+  text-align: center;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  font: normal normal bold 20px/44px Tisa OT;
+  letter-spacing: 0.84px;
+  color: rgba(38, 38, 38, 1);
+}
+
+.position {
+  font-size: 18px;
+
+  font: normal normal normal 20px/44px Tisa OT;
+  color: rgba(38, 38, 38, 1);
+  letter-spacing: 0.84px;
+}
